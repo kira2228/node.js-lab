@@ -1,0 +1,61 @@
+1. create a file "test"
+
+
+2. open cmd from there
+
+
+3. check version : python --version
+
+
+4. TO INSTALL VIRTUAL ENVIRONMENT, WE REQUIRE VIRTUAL ENVIRONMENT PACKAGE --
+   py -m pip install --user virtualenv
+
+   
+5. NEXT, WE NEED TO CREATE A ENVIRONMENT --
+   py -m venv exp12
+
+   
+6. NEXT WE HAVE TO ACTIVATE --
+   code .  = to check if we got all scripts & others.
+
+   
+7. go back to cmd and type --
+   .\exp12\scripts\activate
+
+   
+8. NEXT, we have to INSTALL DJANGO FRAME WORK-
+   TO CHECK IF DJANGO IS PRESENT OR NOT --
+   django-admin --version
+
+   
+9. If it is not there....we need to install it --
+   pip install django 
+
+   
+10. To check whether all packages are installed in this package type -
+    pip list
+
+    
+11. NEXT IS DJANGO PROJECT CREATION
+syntax : django-admin startproject exp13
+
+
+12. in cmd type : cd exp13
+
+
+13. type : code .
+
+
+14. NEXT THING IS TO RUN DJANGO PROJECT
+
+
+15. manage.py : it acts as the cli to execute any project or run django project
+
+
+16. go to cmd : py manage.py runserver
+
+
+17. init.py = tells the starting of the application
+
+
+18. settings.py = here we configure all the settings
